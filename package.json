@@ -8,9 +8,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.15.4"
   }
 }
